@@ -1,0 +1,132 @@
+@media (max-width: 900px){
+
+	.featurette-heading {
+		margin-top: 120px;
+	}
+	.course-sidebar{
+		margin:30px;
+	}
+
+	.search-bar{
+		width:80%;
+		margin-top:2px;
+		margin-left: 13%;
+		padding-left:0;
+
+	}
+	.inav{
+		width:100%;
+	}
+
+	.fr > li {
+		border-radius: 5px;
+		background: rgba(24, 22, 126, 0.08);
+		> a {
+			color: rgba(13, 1, 1, 0.86);
+		}
+	}
+	.quiztake{
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 768px){
+	#home .benefits .inn {
+		min-height: 225px;
+	}
+	#home .reviews .testimonials
+	{
+		display: block;
+		min-height: 230px;
+		.testimonials_content {
+			// float: left;
+		}
+	}
+	.featurette-heading {
+		font-size: 50px;
+	}
+	.course-details{
+		margin: 0;
+		width:100%;
+		text-align: center;
+	}
+}
+@media (max-width: 667px){
+	.subscribe-modal {
+		width:400px;
+		margin-left: -200px;
+		line-height: 1.8;
+	}
+	#quizscroll{
+		display: none;
+	}
+	#home{
+		.first{
+			.inn{
+				h4{
+					font-size: 24px;
+				}
+				h2{
+					font-size: 36px;
+				}
+			}
+		}
+		.rib{
+			font-size: 24px;
+
+		}
+	}
+	#home .reviews .testimonials .online_image {
+	    float: left;
+	    height: 160px;
+	    width: 100%;
+	    margin: 0 auto;
+	    margin-bottom: 9px;
+	}
+	#home .reviews .testimonials .testimonials_content {
+	    float: left;
+	    width: 100%;
+	    margin: 0 auto;
+	    margin-bottom: 32px;
+	}
+	.btn-google,.btn-facebook{
+		display: block!important;
+		width: 100%!important;
+		margin-left: 0px!important;
+	}
+}
+
+@media (max-width: 375px){
+	.footer{
+		padding:0;
+		col{
+			display:block;
+			width:100%;
+		}
+	}
+	.quiztake{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.quiznav img {
+		top: 27px;
+	}
+
+	.subscribe-modal {
+		width:300px;
+		margin-left: -150px;
+	}
+	.fr > li {
+		padding: 0;
+		background: none;
+		> a {
+			color: rgba(13, 1, 1, 0.86);
+			font-size: 12px;
+		}
+	}
+	#home .benefits .inn {
+		min-height: 218px;
+		font-size: 16px;
+	}
+}

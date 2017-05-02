@@ -1,0 +1,57 @@
+.cred {
+	border: #ccc dotted 1px;
+	padding: 20px;
+	margin:0px auto;
+	background-color: transparentize($bpc,.9);
+	max-width:420px;
+	margin-top: 30px;
+	box-shadow: 0 0 20px #ccc;
+	text-align: center;
+	input{
+		color: $dpc;
+		font-weight: bold;
+		border-color: rgba(80, 137, 183, 0.33);
+	}
+	>.social{
+		margin-bottom:15px;
+		text-align: center;
+		>a{
+			width:100%;
+			display:inline-block;
+			margin:4px auto;
+		}
+	}
+}
+
+.btn-facebook, .btn-google{
+	color:#fff;
+	font-size: 14px;
+	font-weight: bold;
+	margin:7px 10px 23px 2px;
+	border-radius:1px;
+}
+
+.btn-facebook{
+	background-color:#44619D;
+	box-shadow: 0 0 6px #385898;
+}
+.btn-google{
+	background-color:#DC483B;
+	box-shadow: 0 0 6px rgba(216, 60, 60, 0.87);
+}
+
+
+.authinputa{
+	background-color: #6DCFED;
+	color: #fff;
+	font-weight: 600;
+	&:hover{
+		background-color: #fff;
+		color: #6DCFED;
+	}
+}
+
+.g-recaptcha{
+	width: 302px;
+	margin: 20px auto;
+}
